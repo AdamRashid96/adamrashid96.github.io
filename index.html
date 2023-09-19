@@ -1,0 +1,120 @@
+
+<!DOCTYPE HTML>
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+  <title>Adam Rashid</title>
+  
+  <meta name="author" content="Adam Rashid">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <link rel="stylesheet" type="text/css" href="stylesheet.css">
+  <link rel="icon" type="image/png" href="images/seal_icon.png">
+</head>
+
+<body>
+  <table style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+    <tr style="padding:0px">
+      <td style="padding:0px">
+        <!-- Introduction -->
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+          <tr style="padding:0px">
+            <td style="padding:2.5%;width:63%;vertical-align:middle">
+              <p style="text-align:center">
+                <name>Adam Rashid</name>
+              </p>
+              <p>
+                I am a Regents' and Chancellor's Scholar at the University of California, Berkeley majoring in Electrical Engineering and Computer Science. I am currently doing research in the <a href="https://autolab.berkeley.edu">AUTOLab</a> at <a href="https://www.berkeley.edu/">UC Berkeley</a>, where I am work with <a href="https://goldberg.berkeley.edu/">Ken Goldberg</a>.
+              </p>
+              <p>
+                I'm very interested in 3D scene representations (<a href="https://www.matthewtancik.com/nerf">NeRFs</a>) and how they can be leveraged in robotics. I'm also interested in how we can use language to interact with robots.
+              </p>
+              <p style="text-align:center">
+                <a href="mailto:abrashid@berkeley.edu">Email</a> &nbsp/&nbsp
+                <a href="https://scholar.google.com/citations?user=0GgADUYAAAAJ&hl=en&oi=ao">Google Scholar</a> &nbsp/&nbsp
+                <a href="">CV</a> &nbsp/&nbsp
+                <a href="https://github.com/AdamRashid96">Github</a>
+              </p>
+            </td>
+            <td style="padding:2.5%;width:40%;max-width:40%">
+              <a href="images/profilepic.jpg"><img style="width:100%;max-width:100%" alt="profile photo" src="images/profilepic.jpg" class="hoverZoomLink"></a>
+            </td>
+          </tr>
+        </tbody></table>
+        <!-- Research overview if applicable -->
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+            <tr>
+            <td style="padding:20px;width:100%;vertical-align:middle">
+              <heading>Research</heading>
+            </td>
+          </tr>
+        </tbody></table>
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+				
+<!-- Works listed here -->      
+<!-- LERF-TOGO -->
+<tr onmouseout="lerf_stop()" onmouseover="lerf_start()">
+  <td style="padding:20px;width:25%;vertical-align:middle">
+    <!-- IMAGES -->
+    <div class="one">
+      <div class="two" id="lerf_under" style="opacity: 0;">
+        <img src="images/lerftogopipeline.jpg" width="180">
+      </div>
+      <video width="115%" height="100%" muted="" autoplay="" loop="" id="lerf_splash" style="opacity: 1;">
+        <source src="images/lerftogo.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </div>
+    <!-- SCRIPT FOR HOVERING -->
+    <script type="text/javascript">
+      function lerf_start() {
+        document.getElementById('lerf_splash').style.opacity = "0";
+        document.getElementById('lerf_under').style.opacity = "1";
+      }
+
+      function lerf_stop() {
+        document.getElementById('lerf_splash').style.opacity = "1";
+        document.getElementById('lerf_under').style.opacity = "0";
+      }
+      lerf_stop()
+    </script>
+  </td>
+  <td style="padding:20px;width:75%;vertical-align:middle">
+    <!-- TITLE -->
+    <a href="https://lerftogo.github.io/desktop.html"><papertitle>LERF-TOGO: Language Embedded Radiance Fields for Zero-Shot Task-Oriented Grasping
+        </papertitle></a>
+    <br>
+    <!-- AUTHORS -->
+    <b>Adam Rashid*</b>, Satvik Sharma*, Chung Min Kim, Justin Kerr, Lawrence Yunliang Chen, Angjoo Kanazawa, Ken Goldberg
+    <br>
+    *Equal contribution
+    <br>
+    <!-- CONFERENCE -->
+    <em>CORL</em> 2023 &nbsp;
+    <font color="red">(Oral Presentaion)</font>
+    <!-- LINKS -->
+    <br>
+    <a href="https://arxiv.org/abs/2309.07970">arXiv</a> / <a href="https://lerftogo.github.io">Website</a>
+    <p></p>
+    <!-- SUMMARY -->
+    LERF-TOGO uses CLIP and DINO features for language-specified tasks performing zero-shot semantic grasping.
+  </td>
+</tr>
+		  
+        </tbody></table>
+				
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+          <tr>
+            <td style="padding:0px">
+              <br>
+              <p style="text-align:left;font-size:small;">
+                Source code for this page was taken from <a href="https://github.com/jonbarron/jonbarron_website">Jon Barron's website</a>. 
+              </p>
+            </td>
+          </tr>
+        </tbody></table>
+      </td>
+    </tr>
+  </table>
+</body>
+
+</html>
