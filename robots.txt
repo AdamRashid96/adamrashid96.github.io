@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://adamrashid96.github.io/sitemap.xml
+
