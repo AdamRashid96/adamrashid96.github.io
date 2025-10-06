@@ -83,6 +83,12 @@
     font-family: 'Lato', Verdana, Helvetica, sans-serif;
     font-size: 14px
   }
+
+  /* Soft background similar to example */
+  body {
+    background-color: #f7f4ef;
+    color: #222;
+  }
   
   strong {
     font-family: 'Lato', Verdana, Helvetica, sans-serif;
@@ -102,7 +108,39 @@
   
   name {
     font-family: 'Lato', Verdana, Helvetica, sans-serif;
-    font-size: 32px;
+    font-size: 40px;
+    font-weight: 700;
+    display: block;
+    text-align: left;
+    margin-bottom: 6px;
+  }
+
+  /* Make profile image rounded and smaller margin */
+  .profile-img {
+    border-radius: 12px;
+  }
+
+  /* Reduce max width of content and left-align */
+  .container {
+    width: 100%;
+    max-width: 860px;
+    margin: 0 auto;
+  }
+
+  /* Spacing tweaks */
+  .intro p {
+    line-height: 1.6;
+  }
+
+  /* Works media alignment */
+  .work-media {
+    width: 180px;
+  }
+  .work-thumb {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 6px;
   }
   
   .one {
@@ -128,4 +166,12 @@
   
   span.highlight {
     background-color: #ffffd0;
+  }
+
+  /* Link color refinement */
+  a {
+    color: #0f5bd9;
+  }
+  a:hover {
+    color: #0a3ea1;
   }
